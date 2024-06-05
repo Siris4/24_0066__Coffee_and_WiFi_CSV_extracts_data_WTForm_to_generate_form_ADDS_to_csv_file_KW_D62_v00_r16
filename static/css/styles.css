@@ -1,0 +1,55 @@
+body {
+    background-color: #4B382A; /* Darker coffee brown color */
+    color: #d3d3d3; /* Default text color set to light grey */
+    margin: 0; /* Remove default margin */
+    min-height: 100vh; /* Ensure body is at least the height of the viewport */
+    overflow-y: auto; /* Handle vertical overflow smoothly */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    transition: opacity 0.5s ease-in-out;
+}
+
+a {
+    color: #ffc107;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #4B382A; /* Ensure jumbotron matches body */
+}
+
+.jumbotron h1 {
+    color: white; /* Ensure 'Coffee & WiFi' is white */
+}
+
+.jumbotron p,
+.jumbotron hr,
+.jumbotron .lead {
+    color: #d3d3d3; /* Ensure other text inside the jumbotron is light grey */
+}
+
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+/* Custom class to make text 35% darker */
+.darker-text {
+    color: #898989; /* 35% darker than the original lightness */
+}
+
+/* Form-related styles */
+.form-group {
+    margin-bottom: 40px; /* Add gap between fields */
+}
+
+.custom-input {
+    width: 100%; /* Make input boxes 100% width of their container */
+    max-width: 800px; /* Optionally set a max-width for the input boxes */
+}
+
+.errors {
+    color: red; /* Style the error messages */
+}
